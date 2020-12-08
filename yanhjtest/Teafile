@@ -1,0 +1,73 @@
+{
+  "scope": "alibabacloud",
+  "name": "YanhjTest",
+  "version": "0.0.1",
+  "main": "./main.tea",
+  "maintainers": [
+    {
+      "name": "Alibaba Cloud SDK",
+      "email": "sdk-team@alibabacloud.com"
+    }
+  ],
+  "java": {
+    "package": "com.aliyun.yanhjtest",
+    "packageInfo": {
+      "groupId": "com.aliyun",
+      "artifactId": "yanhjtest",
+      "description": "Alibaba Cloud YanhjTest SDK for Java",
+      "url": "https://github.com/aliyun/alibabacloud-sdk",
+      "licenseNmae": "The Apache License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "developerId": "aliyunproducts",
+      "developerName": "Aliyun SDK",
+      "developerEmail": "aliyunsdk@aliyun.com"
+    }
+  },
+  "releases": {
+    "java": "com.aliyun:yanhjtest:0.0.1",
+    "go": "github.com/alibabacloud-go/yanhjtest/client:v1.0.0",
+    "csharp": "AlibabaCloud.SDK.YanhjTest:0.0.1",
+    "ts": "@alicloud/yanhjtest:^1.0.0",
+    "php": "alibabacloud/yanhjtest:^0.1.0",
+    "python": "alibabacloud_yanhjtest:0.0.1"
+  },
+  "libraries": {
+    "OpenApi": "alibabacloud:OpenApi:*",
+    "Util": "darabonba:Util:*",
+    "OpenApiUtil": "alibabacloud:OpenApiUtil:*",
+    "EndpointUtil": "alibabacloud:EndpointUtil:*"
+  },
+  "csharp": {
+    "className": "Client",
+    "namespace": "AlibabaCloud.SDK.YanhjTest",
+    "packageInfo": {
+      "name": "yanhjtest",
+      "title": "alibabacloud-yanhjtest",
+      "description": "Alibaba Cloud YanhjTest SDK Library for .NET",
+      "company": "Alibaba Cloud, Inc"
+    }
+  },
+  "php": {
+    "package": "AlibabaCloud.SDK.YanhjTest",
+    "clientName": "YanhjTest",
+    "packageInfo": {
+      "name": "alibabacloud/yanhjtest",
+      "desc": "Alibaba Cloud YanhjTest SDK Library for PHP",
+      "github": "https://github.com/aliyun/alibabacloud-sdk",
+      "files": {
+        "LICENSE": "../LICENSE"
+      }
+    }
+  },
+  "python": {
+    "package": "alibabacloud_yanhjtest",
+    "clientName": "client",
+    "packageInfo": {
+      "name": "alibabacloud_yanhjtest",
+      "desc": "Alibaba Cloud YanhjTest SDK Library for Python",
+      "github": "https://github.com/aliyun/alibabacloud-sdk",
+      "author": "Alibaba Cloud SDK",
+      "email": "sdk-team@alibabacloud.com"
+    }
+  }
+}
